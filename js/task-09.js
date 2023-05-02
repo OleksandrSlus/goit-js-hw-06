@@ -9,5 +9,5 @@ changeColorEl.addEventListener("click", onChangeColor);
 function onChangeColor() {
   const color = getRandomHexColor();
   textColorEl.textContent = color;
-  body.style.backgroundColor = color;
+  document.body.style.backgroundColor = color;
 }
